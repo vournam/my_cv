@@ -1,5 +1,5 @@
 ### Vourna Maria-Melina
-_______________________
+_______________________ 
 
 ### Personal Information
 
@@ -34,8 +34,8 @@ _______________________
 ### Languages
 
 {% for l in site.data.languages.languages %}
-{{l.langA}} :  {{l.levelA}} <br> 
-{{l.langB}} :  {{l.levelB}} <br> <br>
+{{l.langA}} :  {{l.levelA}}  
+{{l.langB}} :  {{l.levelB}}
 {% endfor %}
 
 _______________________
