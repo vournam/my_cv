@@ -4,18 +4,11 @@ _______________________
 ### Personal Information
 
 {% for p in site.data.personal.personal %} 
-<dl>
-<dt> Name: </dt>
-<dd> {{p.name}} </dd> 
-<dt> Date of Birth: </dt>
-<dd> {{p.birth_date}} </dd>  
-<dt> Email: </dt>
-<dd> {{p.email}} </dd> 
-<dt> City: </dt>
-<dd> {{p.city}} </dd>
-<dt> Github Link: </dt> 
-<dd> https://{{p.link}} </dd>
-</dl>
+Name: {{p.name}} <br>
+Date of Birth: {{p.birth_date}} <br>  
+Email: {{p.email}} <br>
+City: {{p.city}} <br>
+Github Link: https://{{p.link}} 
 {% endfor %}
  
 _______________________
