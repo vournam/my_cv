@@ -27,9 +27,10 @@ _______________________
 ### Languages
 
 __Greek__: Native Speaker <br>
-{% for lang in site.data.languages.languages %}
-__English__: {{lang.english}} <br>
-__French__: {{lang.french}} <br> <br>
+
+{% for l in site.data.languages.languages %}
+__English__: {{l.english}} <br>
+__French__: {{l.french}} <br> <br>
 {% enfor %}
 
 _______________________
@@ -37,7 +38,7 @@ _______________________
 ### Skills
 
 {% for s in site.data.skills.skills %}
-{{s.name}}  
+Programming skills: {{s.name}}  
 {% endfor %}
 
 _______________________
