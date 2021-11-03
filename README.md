@@ -35,12 +35,7 @@ _______________________
 ### Skills
 
 {% for s in site.data.skills.skills %}
-{{s.name1}}  
-{{s.name2}}
-{{s.name3}}  
-{{s.name4}}
-{{s.name5}} 
-{{s.name6}}
+{{s.name}}  
 {% endfor %}
 
 _______________________
