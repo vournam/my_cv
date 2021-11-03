@@ -26,10 +26,9 @@ _______________________
 
 ### Languages
 
-{% for l in site.data.languages.languages %}
-{{l.langA}} :  {{l.levelA}}  
-{{l.langB}} :  {{l.levelB}}
-{% endfor %}
+Greek: Native Speaker <br>
+English: {{ site.data.languages.english }} <br>
+French: {{ site.data.languages.french }} <br>
 
 _______________________
 
