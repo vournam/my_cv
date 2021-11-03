@@ -8,8 +8,8 @@ Name: {{p.name}} <br>
 Date of Birth: {{p.birth_date}} <br>  
 Email: {{p.email}} <br>
 City: {{p.city}} <br>
+[Github Link]: (https://{{p.link}}) <br> <br>
 {% endfor %}
-[Github Link]: (https://{{site.data.personal.personal.link}}) <br> <br>
  
 _______________________
 
@@ -27,13 +27,17 @@ _______________________
 ### Languages
 
 __Greek__: Native Speaker <br>
-__English__: {{site.data.languages.languages.english}} <br>
-__French__: {{site.data.languages.languages.french}} <br> <br>
+{% for lang in site.data.languages.languages %}
+__English__: {{lang.english}} <br>
+__French__: {{lang.french}} <br> <br>
+{% enfor %}
 
 _______________________
 
 ### Skills
 
-{{site.data.skills.skills.name}}  
+{% for s in site.data.skills.skills %}
+{{s.name}}  
+{% endfor %}
 
 _______________________
