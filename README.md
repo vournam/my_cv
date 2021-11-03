@@ -25,11 +25,11 @@ __{{edu.subject}}__ <br>
 _______________________
 
 ### Languages
-
+{% for l in site.data.languages.languages %}
 Greek: Native Speaker <br>
-English: {{ site.data.languages.english }} <br>
-French: {{ site.data.languages.french }} <br>
-
+English: {{l.english}} <br>
+French: {{l.french}} <br>
+{% endfor %}
 _______________________
 
 ### Skills
