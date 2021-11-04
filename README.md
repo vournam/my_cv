@@ -17,7 +17,8 @@ _______________________
 
 {% for edu in site.data.education.education %}
 {{edu.years}}<br>
-__{{edu.subject}}__ ,grade {{edu.grade}} <br>
+__{{edu.subject}}__  <br>
+{{edu.grade}} <br>
 {{edu.institute}} <br> 
 *{{edu.city}}* <br> <br>
 {% endfor %}
