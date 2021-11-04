@@ -36,6 +36,8 @@ _______________________
 
 ### Skills
 
-Programming skills: {{site.data.skills.name}}  
+{% for s in site.data.skills.skills %}
+Programming skills: {{s.programming}}  <br>
+Machine Learning: {{s.coursera}} <br> <br>
 
 _______________________
