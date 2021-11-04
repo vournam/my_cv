@@ -19,6 +19,7 @@ _______________________
 {{edu.years}}<br>
 __{{edu.subject}}__ <br>
 {{edu.institute}} <br> 
+{{edu.grade}} <br>
 *{{edu.city}}* <br> <br>
 {% endfor %}
 
