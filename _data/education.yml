@@ -4,7 +4,7 @@ education:
 - years: October 2021 - today
   subject: Master in Human-Computer Interaction
   institute: University of Patras
-  grade: -
+  grade: 
   city: Patras,Greece
   
 - years: 2017 - 2021
@@ -13,9 +13,9 @@ education:
   grade: 7.99
   city: Patras,Greece
   
- - years: - 2017
+ - years: 2014 - 2017
    subject: GENERAL HIGH SCHOOL diploma 
-   institute: -
+   institute: 
    grade: 'Άριστα' 19.5
    city: Patras,Greece
   
