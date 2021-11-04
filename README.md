@@ -39,5 +39,5 @@ _______________________
 {% for s in site.data.skills.skills %}
 Programming skills: {{s.programming}}  <br>
 Machine Learning: {{s.coursera}} <br> <br>
-
+{% endfor %}
 _______________________
