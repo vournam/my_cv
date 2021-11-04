@@ -8,12 +8,13 @@ education:
   
 - years: 2017 - 2021
   subject: Mathematics
-  institute: University of Patras
+  institute: University of Patra
+  grade: 7.99
   city: Patras,Greece
   
  - years: - 2017
-  subject: GENERAL HIGH SCHOOL diploma
-  grade: 'Άριστα' 19.5
-  city: Patras,Greece
+   subject: GENERAL HIGH SCHOOL diploma 
+   grade: 'Άριστα' 19.5
+   city: Patras,Greece
   
 ---
