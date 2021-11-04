@@ -2,12 +2,13 @@
 
 education:
 - years: October 2021 - today
-  subject: Master in Human-Computer Interaction
+  subject: MSc in Human-Computer Interaction
   institute: University of Patras
+  grade: -
   city: Patras,Greece
   
 - years: 2017 - 2021
-  subject: Mathematics
+  subject: BSc in Mathematics
   institute: University of Patra
   grade: "7.99"
   city: Patras,Greece
