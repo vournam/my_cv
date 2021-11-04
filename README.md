@@ -30,7 +30,7 @@ _______________________
 __Greek__: {{l.greek}} <br>
 __English__: {{l.english}} <br>
 __French__: {{l.french}} <br> <br>
-{% enfor %}
+{% endfor %}
 
 _______________________
 
