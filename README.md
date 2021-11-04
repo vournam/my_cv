@@ -36,6 +36,6 @@ _______________________
 
 ### Skills
 
-Programming skills: {{site._data.skills.name}}  
+Programming skills: {{site.data.skills.name}}  
 
 _______________________
